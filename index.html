@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <h1 align="center">Todo List</h1>
+
+    <!-- Input box -->
+    <div class="row">
+      <div class="col">
+        <div class="form-group">
+          <label for="newTask">New Task</label>
+          <input type="text" class="form-control" id="newTask" aria-describedby="newTaskHelp" placeholder="Enter the name of the task">
+          <small id="newTaskHelp" class="form-text text-muted">A short one line description of your task</small>
+        </div>
+      </div>
+    </div>
+
+    <!--  Buttons -->
+    <div class="row px-4">
+      <button class="btn btn-success col m-2">
+        Add
+      </button>
+      <button class="btn btn-danger col m-2">
+        Clear
+      </button>
+
+    </div>
+
+    <!-- Task List -->
+
+    <ul class="row list-group m-2">
+      <li class="list-group-item">Cras justo odio</li>
+      <li class="list-group-item">Dapibus ac facilisis in</li>
+      <li class="list-group-item">Morbi leo risus</li>
+      <li class="list-group-item">Porta ac consectetur ac</li>
+      <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+  </div>
+
+</body>
+</html>
